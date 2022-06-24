@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113624B3277FD35500CBB6B5 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113624B2277FD35500CBB6B5 /* OnBoardingView.swift */; };
+		113AB0D1278218FB00019F0D /* FlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113AB0D0278218FB00019F0D /* FlyView.swift */; };
+		113AB0D327825B8200019F0D /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113AB0D227825B8200019F0D /* MapView.swift */; };
+		118B8ADA277F552E000ADCB8 /* TrentaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B8AD9277F552E000ADCB8 /* TrentaApp.swift */; };
+		118B8ADC277F552E000ADCB8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B8ADB277F552E000ADCB8 /* ContentView.swift */; };
+		118B8ADE277F552F000ADCB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118B8ADD277F552F000ADCB8 /* Assets.xcassets */; };
+		118B8AE1277F552F000ADCB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 118B8AE0277F552F000ADCB8 /* Preview Assets.xcassets */; };
+		118B8AEA277F57C3000ADCB8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B8AE9277F57C3000ADCB8 /* CardView.swift */; };
+		118B8AEE277F627B000ADCB8 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B8AED277F627B000ADCB8 /* ButtonView.swift */; };
+		118B8AF4277F7F65000ADCB8 /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B8AF3277F7F65000ADCB8 /* DocumentView.swift */; };
+		118B8AF8277FD10E000ADCB8 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B8AF7277FD10E000ADCB8 /* FirstView.swift */; };
+		119138A02780FC0100F6F0EA /* AdventureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1191389F2780FC0100F6F0EA /* AdventureView.swift */; };
+		119138A22780FD8400F6F0EA /* ExploreButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119138A12780FD8400F6F0EA /* ExploreButton.swift */; };
+		119138A42780FDC100F6F0EA /* ActivitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119138A32780FDC100F6F0EA /* ActivitiesView.swift */; };
+		119138A62781083000F6F0EA /* AcitivityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119138A52781083000F6F0EA /* AcitivityCard.swift */; };
+		119138A827810C7F00F6F0EA /* VisitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119138A727810C7F00F6F0EA /* VisitView.swift */; };
+		119138AA27810C8900F6F0EA /* EatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119138A927810C8900F6F0EA /* EatView.swift */; };
+		119138AC27810C9D00F6F0EA /* NightlifeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119138AB27810C9D00F6F0EA /* NightlifeView.swift */; };
+		11919877277FEB3900A9616E /* Infocard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11919876277FEB3900A9616E /* Infocard.swift */; };
+		1197BA162780E7DE00E6DF56 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197BA152780E7DE00E6DF56 /* SecondView.swift */; };
+		11DA360F27833F0D006D4D34 /* CheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA360E27833F0D006D4D34 /* CheckView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		113624B2277FD35500CBB6B5 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		113AB0D0278218FB00019F0D /* FlyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyView.swift; sourceTree = "<group>"; };
+		113AB0D227825B8200019F0D /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		118B8AD6277F552E000ADCB8 /* Trenta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trenta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		118B8AD9277F552E000ADCB8 /* TrentaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrentaApp.swift; sourceTree = "<group>"; };
+		118B8ADB277F552E000ADCB8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		118B8ADD277F552F000ADCB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		118B8AE0277F552F000ADCB8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		118B8AE9277F57C3000ADCB8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		118B8AED277F627B000ADCB8 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		118B8AF3277F7F65000ADCB8 /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
+		118B8AF7277FD10E000ADCB8 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		1191389F2780FC0100F6F0EA /* AdventureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureView.swift; sourceTree = "<group>"; };
+		119138A12780FD8400F6F0EA /* ExploreButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreButton.swift; sourceTree = "<group>"; };
+		119138A32780FDC100F6F0EA /* ActivitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesView.swift; sourceTree = "<group>"; };
+		119138A52781083000F6F0EA /* AcitivityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcitivityCard.swift; sourceTree = "<group>"; };
+		119138A727810C7F00F6F0EA /* VisitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitView.swift; sourceTree = "<group>"; };
+		119138A927810C8900F6F0EA /* EatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EatView.swift; sourceTree = "<group>"; };
+		119138AB27810C9D00F6F0EA /* NightlifeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightlifeView.swift; sourceTree = "<group>"; };
+		11919876277FEB3900A9616E /* Infocard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infocard.swift; sourceTree = "<group>"; };
+		1197BA152780E7DE00E6DF56 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		11DA360E27833F0D006D4D34 /* CheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		118B8AD3277F552E000ADCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118B8ACD277F552D000ADCB8 = {
+			isa = PBXGroup;
+			children = (
+				118B8AD8277F552E000ADCB8 /* Trenta */,
+				118B8AD7277F552E000ADCB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		118B8AD7277F552E000ADCB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				118B8AD6277F552E000ADCB8 /* Trenta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		118B8AD8277F552E000ADCB8 /* Trenta */ = {
+			isa = PBXGroup;
+			children = (
+				118B8AE8277F57B6000ADCB8 /* View */,
+				118B8AE7277F57B0000ADCB8 /* Screen */,
+				118B8ADB277F552E000ADCB8 /* ContentView.swift */,
+				113624B2277FD35500CBB6B5 /* OnBoardingView.swift */,
+				118B8AF7277FD10E000ADCB8 /* FirstView.swift */,
+				1197BA152780E7DE00E6DF56 /* SecondView.swift */,
+				118B8AF3277F7F65000ADCB8 /* DocumentView.swift */,
+				1191389F2780FC0100F6F0EA /* AdventureView.swift */,
+				119138A32780FDC100F6F0EA /* ActivitiesView.swift */,
+				119138A727810C7F00F6F0EA /* VisitView.swift */,
+				119138A927810C8900F6F0EA /* EatView.swift */,
+				119138AB27810C9D00F6F0EA /* NightlifeView.swift */,
+				113AB0D227825B8200019F0D /* MapView.swift */,
+				118B8ADD277F552F000ADCB8 /* Assets.xcassets */,
+				118B8ADF277F552F000ADCB8 /* Preview Content */,
+			);
+			path = Trenta;
+			sourceTree = "<group>";
+		};
+		118B8ADF277F552F000ADCB8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				118B8AE0277F552F000ADCB8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		118B8AE7277F57B0000ADCB8 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				118B8AD9277F552E000ADCB8 /* TrentaApp.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		118B8AE8277F57B6000ADCB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				118B8AE9277F57C3000ADCB8 /* CardView.swift */,
+				11DA360E27833F0D006D4D34 /* CheckView.swift */,
+				118B8AED277F627B000ADCB8 /* ButtonView.swift */,
+				119138A12780FD8400F6F0EA /* ExploreButton.swift */,
+				11919876277FEB3900A9616E /* Infocard.swift */,
+				113AB0D0278218FB00019F0D /* FlyView.swift */,
+				119138A52781083000F6F0EA /* AcitivityCard.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		118B8AD5277F552E000ADCB8 /* Trenta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 118B8AE4277F552F000ADCB8 /* Build configuration list for PBXNativeTarget "Trenta" */;
+			buildPhases = (
+				118B8AD2277F552E000ADCB8 /* Sources */,
+				118B8AD3277F552E000ADCB8 /* Frameworks */,
+				118B8AD4277F552E000ADCB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trenta;
+			productName = Trenta;
+			productReference = 118B8AD6277F552E000ADCB8 /* Trenta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		118B8ACE277F552D000ADCB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					118B8AD5277F552E000ADCB8 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 118B8AD1277F552E000ADCB8 /* Build configuration list for PBXProject "Trenta" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 118B8ACD277F552D000ADCB8;
+			productRefGroup = 118B8AD7277F552E000ADCB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				118B8AD5277F552E000ADCB8 /* Trenta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118B8AD4277F552E000ADCB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118B8AE1277F552F000ADCB8 /* Preview Assets.xcassets in Resources */,
+				118B8ADE277F552F000ADCB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		118B8AD2277F552E000ADCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118B8ADC277F552E000ADCB8 /* ContentView.swift in Sources */,
+				119138AC27810C9D00F6F0EA /* NightlifeView.swift in Sources */,
+				113624B3277FD35500CBB6B5 /* OnBoardingView.swift in Sources */,
+				118B8AF8277FD10E000ADCB8 /* FirstView.swift in Sources */,
+				119138A02780FC0100F6F0EA /* AdventureView.swift in Sources */,
+				11919877277FEB3900A9616E /* Infocard.swift in Sources */,
+				118B8AEE277F627B000ADCB8 /* ButtonView.swift in Sources */,
+				1197BA162780E7DE00E6DF56 /* SecondView.swift in Sources */,
+				118B8AEA277F57C3000ADCB8 /* CardView.swift in Sources */,
+				113AB0D1278218FB00019F0D /* FlyView.swift in Sources */,
+				119138A22780FD8400F6F0EA /* ExploreButton.swift in Sources */,
+				119138A42780FDC100F6F0EA /* ActivitiesView.swift in Sources */,
+				118B8ADA277F552E000ADCB8 /* TrentaApp.swift in Sources */,
+				119138A827810C7F00F6F0EA /* VisitView.swift in Sources */,
+				113AB0D327825B8200019F0D /* MapView.swift in Sources */,
+				119138AA27810C8900F6F0EA /* EatView.swift in Sources */,
+				119138A62781083000F6F0EA /* AcitivityCard.swift in Sources */,
+				118B8AF4277F7F65000ADCB8 /* DocumentView.swift in Sources */,
+				11DA360F27833F0D006D4D34 /* CheckView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		118B8AE2277F552F000ADCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		118B8AE3277F552F000ADCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		118B8AE5277F552F000ADCB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trenta/Preview Content\"";
+				DEVELOPMENT_TEAM = G4476DWGWZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Giuli.Trenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		118B8AE6277F552F000ADCB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trenta/Preview Content\"";
+				DEVELOPMENT_TEAM = G4476DWGWZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Giuli.Trenta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		118B8AD1277F552E000ADCB8 /* Build configuration list for PBXProject "Trenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B8AE2277F552F000ADCB8 /* Debug */,
+				118B8AE3277F552F000ADCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		118B8AE4277F552F000ADCB8 /* Build configuration list for PBXNativeTarget "Trenta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118B8AE5277F552F000ADCB8 /* Debug */,
+				118B8AE6277F552F000ADCB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 118B8ACE277F552D000ADCB8 /* Project object */;
+}
